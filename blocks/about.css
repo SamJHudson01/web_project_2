@@ -1,0 +1,38 @@
+.about {
+  position: relative;
+  color: white;
+  background-color: #0a2850;
+  height: 522px;
+  z-index: -1;
+}
+
+.about__title {
+  margin: 0;
+  padding: 100px 0 0 80px;
+  font-size: 44px;
+  line-height: 52px;
+  max-width: 300px;
+ 
+}
+
+.about__content {
+  position: absolute;
+  top: 119px;
+  right: 80px;
+  padding-bottom: 173px;
+  max-width: 650px;
+  font-family: Noto Serif, "Times New Roman";
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.about__circle {
+  background-color: #2f80ed;
+  width: 430px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  position: absolute;
+  top: -152px;
+  left: -129px;
+  z-index: -1;
+}
