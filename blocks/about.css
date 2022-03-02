@@ -41,7 +41,7 @@
 .about__circle {
   background-color: #2f80ed;
   width: 430px;
-  aspect-ratio: 1;
+  height: 430px;
   border-radius: 50%;
   position: absolute;
   top: -152px;
@@ -54,7 +54,7 @@
 .about__circle_animation_blurred {
   background-color: #2f80ed;
   width: 430px;
-  aspect-ratio: 1;
+  height: 430px;
   border-radius: 50%;
   position: absolute;
   top: -152px;
