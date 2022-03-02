@@ -8,7 +8,7 @@
     <meta name="author" content="Same Hudson" />
     <meta name="keywords" content="coffee, coffee shop, yandex" />
     <link rel="stylesheet" href="pages/index.css" />
-    <link rel="icon" href="favicon_coffee_bean.ico" />
+    <link rel="icon" href="favicon_circles.ico" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -208,10 +208,64 @@
             </div>
           </div>
         </section>
-        <section class="reservation"></section>
+        <section class="reservation">
+          <h2 class="reservation__title">Book a table</h2>
+          <form class="reservation__form form">
+            <fieldset class="form__fieldset">
+              <label for="name" class="form__label">Name *</label>
+              <input
+                type="text"
+                class="form__input"
+                id="name"
+                name="name"
+                placeholder="Name Surname"
+              />
+              <label for="number" class="form__label">Number of guests *</label>
+              <input
+                type="number"
+                class="form__input"
+                id="number"
+                name="number"
+                placeholder="1 - 8"
+              />
+              <label for="date" class="form__label">Date & time *</label>
+              <input
+                type="text"
+                class="form__input"
+                id="date"
+                name="date"
+                placeholder="dd.mm.yyyy"
+              />
+              <label for="email" class="form__label">Email *</label>
+              <input
+                type="email"
+                class="form__input"
+                id="email"
+                name="email"
+                placeholder="email@email.com"
+              />
+            </fieldset>
+            <fieldset class="form__fieldset">
+              <button type="submit" class="form__button">Book a table</button>
+            </fieldset>
+            <fieldset class="form__fieldset">
+              <div class="form__checkbox-content">
+                <input
+                  type="checkbox"
+                  class="form__input form__input-checkbox"
+                  name="consent"
+                  id="consent"
+                />
+                <label for="consent" class="form__label"
+                  >I agree with the terms of use</label
+                >
+              </div>
+            </fieldset>
+          </form>
+        </section>
         <section class="about">
           <h2 class="about__title">About the coffee shop</h2>
-          <article class="about__content">
+          <div class="about__content">
             <p class="about__paragraph">
               Our coffee shop is located in the Practicum Library's hall. It
               features 6 tables and free WiFi.
@@ -224,12 +278,42 @@
               don't sell single-use cups. But you can buy one of our reusable
               cups!
             </p>
-          </article>
+          </div>
           <div class="about__circle"></div>
           <div class="about__circle_animation_blurred"></div>
         </section>
       </main>
-      <footer class="footer"></footer>
+      <footer class="footer">
+        <div class="footer__content">
+          <img
+            src="../images/logo_white.png"
+            alt="Practicum Logo"
+            class="footer_logo"
+          />
+          <div class="footer__social">
+            <h4 class="footer__social-heading">Social media</h4>
+            <ul class="footer__social-list">
+              <li class="footer__social-list-item">
+                <img
+                  src="../images/facebook_white.svg"
+                  alt="Facebook icon"
+                  class="footer__social-icon"
+                />
+                <a href="#" class="footer__social-link">Facebook</a>
+              </li>
+              <li class="footer__social-list-item">
+                <img
+                  src="images/instagram_white.svg"
+                  alt="Instagram icon"
+                  class="footer__social-icon"
+                />
+                <a href="#" class="footer__social-link">Instagram</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <p class="footer__copyright">© 2022 Your name</p>
+      </footer>
     </div>
   </body>
 </html>
