@@ -2,6 +2,7 @@
   border: none;
   display: flex;
   flex-direction: column;
+  padding: 0;
 }
 
 .form__input {
@@ -21,6 +22,7 @@
   margin-bottom: 32px;
   opacity: 1;
   transition: opacity 1.2s linear;
+  border: none;
 }
 
 .form__button:hover {
@@ -34,7 +36,7 @@
   margin: 0;
 }
 
-.form__input-checkbox {
+.form__checkbox {
   border-radius: 4px;
   min-width: 20px;
   min-height: 20px;

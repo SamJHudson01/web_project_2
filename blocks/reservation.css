@@ -1,4 +1,6 @@
 .reservation {
+    position: relative;
+    z-index: 2;
     background-color: #D9E7FF;
     background-image: url("../images/background_reservation.svg");
     background-repeat: no-repeat;
@@ -10,6 +12,7 @@
     text-align: center;
     padding-top: 100px;
     font-size: 44px;
+    font-weight: 500;
     line-height: 52px;
 }
 

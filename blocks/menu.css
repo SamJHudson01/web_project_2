@@ -18,8 +18,9 @@
 }
 
 .menu__subtitle {
-  font-family: "Noto serif", 'Times New Roman';
+  font-family: "Noto serif", "Times New Roman", serif;
   font-size: 20px;
+  font-weight: normal;
   line-height: 30px;
   max-width: 780px;
   margin: 0 auto;
@@ -29,8 +30,13 @@
 
 .menu__cards {
   margin: 0 auto;
-  padding-top: 100px;
+  padding: 100px 0;
   max-width: 1240px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 100px;
+  justify-content: center;
 }
 
 .menu__cards-top {
@@ -40,8 +46,5 @@
 }
 
 .menu__cards-bottom {
-  margin: 0 auto;
-  padding: 100px 0;
-  display: flex;
-  justify-content: center;
+  
 }

@@ -16,26 +16,37 @@
   color: white;
   background-color: #0a2850;
   height: 522px;
-  z-index: -1;
+  z-index: 0;
+  display: flex;
+  justify-content: space-between;
 }
 
 .about__title {
+  position: relative;
   margin: 0;
   padding: 100px 0 0 80px;
   font-size: 44px;
+  font-weight: 500;
   line-height: 52px;
   max-width: 300px;
+  z-index: 2;
+  
 }
 
 .about__content {
-  position: absolute;
-  top: 119px;
-  right: 80px;
-  padding-bottom: 173px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  padding: 119px 80px 173px 0;
   max-width: 650px;
-  font-family: "Noto serif", "Times New Roman";
+  font-family: "Noto serif", "Times New Roman", serif;
   font-size: 20px;
   line-height: 30px;
+
+}
+
+.about__paragraph {
+  margin: 0;
 }
 
 .about__circle {
@@ -46,7 +57,9 @@
   position: absolute;
   top: -152px;
   left: -129px;
-  z-index: -1;
+  z-index: 1;
+  
+ 
   
   
 }
@@ -54,12 +67,10 @@
 .about__circle_animation_blurred {
   background-color: #2f80ed;
   width: 430px;
-  height: 430px;
   border-radius: 50%;
   position: absolute;
   top: -152px;
   left: -129px;
-  z-index: -1;
   animation: pulsate 1.3s ease-in-out infinite;
-  
+  z-index: 1;
 }
