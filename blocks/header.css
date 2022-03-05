@@ -8,6 +8,7 @@
 }
 
 .header__title {
+  position: relative;
   padding: 80px 0 0 80px;
   margin: 0;
   font-family: "Noto serif", "Times New Roman", serif;
@@ -16,11 +17,12 @@
   font-size: 60px;
   line-height: 72px;
   color: #2f80ed;
+  z-index: 2;
 }
 
 .header__span-accent {
   display: block;
-  font-family: Inter, Arial;
+  font-family: Inter, Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 60px;
@@ -28,6 +30,7 @@
 }
 
 .header__description {
+  position: relative;
   padding: 28px 0 0 80px;
   width: 680px;
   font-family: "Noto serif", "Times New Roman", serif;
@@ -35,6 +38,7 @@
   font-weight: normal;
   line-height: 30px;
   margin: 0;
+  z-index: 2;
 }
 
 .header__image {
@@ -42,22 +46,25 @@
   top: 124px;
   right: 5px;
   width: 600px;
+  z-index: 1;
+}
+
+.header__information {
+  position: absolute;
+  bottom: 40px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
 }
 
 .header__hours {
- position: absolute;
- bottom: 40px;
- left: 80px;
- color: #838383; 
+  margin-left: 80px;
 }
 
-
-
 .header__address {
-  position: absolute;
-  right: 80px;
-  bottom:40px;
- 
+  margin-right: 80px;
+  display: flex;
+  flex-direction: column-reverse;
 }
 
 .header__paragraph {
