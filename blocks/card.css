@@ -1,7 +1,6 @@
 .card {
   width: 500px;
   max-width: 600px;
-  
 }
 
 .card__product-list {
@@ -20,7 +19,7 @@
 }
 
 .card__list-item {
-    font-family: "Noto serif", "Times New Roman", serif;;
+  font-family: "Noto serif", "Times New Roman", serif;
   list-style: none;
   display: flex;
   gap: 10px;
