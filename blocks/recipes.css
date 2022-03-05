@@ -40,12 +40,6 @@
 }
 
 
-.recipes__iframe {
-  border: none;
-  width: 480;
-  height: 273;
-}
-
 .recipes__video-title {
   margin: 0;
   font-size: 20px;
